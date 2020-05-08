@@ -1,4 +1,4 @@
-package com.delta.runners;
+ package com.delta.runners;
 
 import org.junit.runner.RunWith;
 
@@ -13,11 +13,11 @@ import io.cucumber.junit.CucumberOptions;
 		"json:target/Cucumber.json"
 		},
 		
-		tags = {"@wip"},
-		features = "src/test/resources/io/duotech/features"
-		,glue = "io/duotech/step_definition"
+	tags = {"@wip"},
+		features = "src/test/resources/delta/features" 
+		,glue = "com/delta/step_definition"
 		,strict=true
-//		,dryRun = true
+//  	,dryRun = true
 		,monochrome = true
 		,stepNotifications = true
 		
