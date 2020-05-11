@@ -7,11 +7,13 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		plugin = {"rerun:target/rerun.txt",
-				"pretty",
-		"html:target/built-inhtml-report",
-		"json:target/Cucumber.json"
-		},
+	
+				plugin = {"rerun:target/rerun.txt",
+						"html:target/built-in-html-report",
+						"json:target/Cucumber.json ",
+						"junit:target/Cucumber.xml"
+				
+				},
 		
 	tags = {"@wip"},
 		features = "src/test/resources/delta/features" 

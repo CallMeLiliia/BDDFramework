@@ -90,22 +90,6 @@ public class CalendarStepDefinition {
 	
     	
     	
-    	
-    	
-    	
-    	
-//    	homePage.calendarPicker.click();
-//		homePage.clearButton.click();
-//		BrowserUtilities.waitFor(2);
-//		
-//		
-//		String expectedMonth =homePage.nextButtonFunctionality(3);
-//		String actualMonthDisplayed =homePage.monthElement.getText();
-//		System.out.println("*******************"+actualMonthDisplayed);
-//		System.out.println("%%%%%%%%%%%%%%%%%%"+expectedMonth);
-//			//	Assert.assertEquals(expectedMonth, actualMonthDisplayed);
-//				System.out.println("*******************"+actualMonthDisplayed);
-//				System.out.println("%%%%%%%%%%%%%%%%%%"+expectedMonth);
 	
 	}
 
@@ -137,12 +121,6 @@ public class CalendarStepDefinition {
 	public void calendar_should_display_previous_month() {
 	}
 
-	@Then("I click on clear button")
-	public void i_click_on_clear_button() {
-	}
 
-	@Then("Calendar should diselect all dates")
-	public void calendar_should_diselect_all_dates() {
-	}
 
 }

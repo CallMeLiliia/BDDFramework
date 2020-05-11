@@ -1,4 +1,4 @@
-
+@calendar @homepage @smoke @regression
 Feature: Picking departure and Return date for round trip
 
   Background: 
@@ -15,11 +15,6 @@ Feature: Picking departure and Return date for round trip
   Scenario: Verify next and previous month buttons
     Then I click 4 times on  select next month button
     And Calendar should display  correct month
-    Then I click 2 on select previous month button
-    And Calendar should display previous month
 
-  Scenario: Verify clear button
-   Then I click on depart "depart" date and month "month", year "year" 
-    And I click on return "return" date and month "month",year "year"
-    Then I click on clear button
-    And Calendar should diselect all dates
+
+

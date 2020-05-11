@@ -79,7 +79,7 @@
 
 	</dependencies>
 
-	<build>
+		<build>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -88,7 +88,8 @@
 					<testFailureIgnore>true</testFailureIgnore>
 					<includes>
 						<include>**/*CukeRunner.java</include>
-						<include>**/*FailedScenariosRunner.java</include>
+				
+
 					</includes>
 				</configuration>
 			</plugin>
@@ -104,7 +105,7 @@
 							<goal>generate</goal>
 						</goals>
 						<configuration>
-							<projectName>Delta Project</projectName>
+							<projectName>E-commerce Project</projectName>
 
 							<!-- output directory for the generated report -->
 							<outputDirectory>${project.build.directory}/pretty-html-report</outputDirectory>
